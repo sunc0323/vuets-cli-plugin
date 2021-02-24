@@ -1,0 +1,40 @@
+{
+  "author": {
+    "name": "sunchao"
+  },
+  "bin": {
+    "vuets": "./index.js"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@moyuyc/inquirer-autocomplete-prompt": "^1.3.2",
+    "chalk": "^2.4.2",
+    "commander": "^7.1.0",
+    "cross-spawn": "^6.0.5",
+    "fuzzy": "^0.1.3",
+    "json-format": "^1.0.1",
+    "shelljs": "^0.8.4"
+  },
+  "deprecated": false,
+  "description": "vuets",
+  "devDependencies": {},
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [
+    "vuets",
+    "vuets-cli",
+    "vuets-cli-plugin"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "vuets-cli-plugin",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sunc0323/vuets-cli-plugin.git"
+  },
+  "version": "1.0.3"
+}
