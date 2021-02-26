@@ -6,9 +6,7 @@ const program = require('commander');                         // 命令行解析
 /* = task events
 -------------------------------------------------------------- */
 const createProject = require('./lib/create-project'); // 创建项目
-const createPage = require('./lib/create-page'); // 创建页面
 const generate = require('./lib/generate'); // 创建
-const createComponent = require('./lib/create-component'); // 创建组件
                                            
 /* = set version
 -------------------------------------------------------------- */
